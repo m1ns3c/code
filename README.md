@@ -1,6 +1,6 @@
 # code
 
-## sort algorithms
+## Sort Algorithms
 
 - [x] Bubble Sort [bubble_sort.c](/sort/bubble_sort.c)
 - [x] Insertion Sort [insertion_sort.c](/sort/insertion_sort.c)
@@ -12,6 +12,9 @@
 - [x] Radix Sort [radix_sort.cpp](/sort/radix_sort.cpp)
 - [x] Quick Sort [quick_sort.c](/sort/quick_sort.c)
 - [x] Shell Sort [shell_sort.c](/sort/shell_sort.c)
+- [ ] Tim Sort
+- [ ] Tree Sort
+- [ ] Cube Sort
 
 ``` shell
 // compile c
@@ -26,6 +29,35 @@ $ g++ -g sort.h main.c radix_sort.cpp -o radix_sort
 $ ./radix_sort
 ```
 
+## Data Structure
+
+- [ ] Array
+- [ ] Stack
+  - [ ] Generalized List/GList
+- [ ] Queue
+  - [ ] Linked List Implementation
+  - [ ] ArrayQueue
+  - [ ] Deque
+  - [ ] Priority Queue
+  - [ ] Circular Queue
+- [ ] Singly-Linked List
+  - [ ] Static List
+  - [ ] Symmetric Matrix
+  - [ ] Sparse Matrix
+- [ ] Doubly-Linked List
+- [ ] Skip List
+- [ ] Hash Table
+  - [ ] Hash Function
+  - [ ] Collision Resolution
+- [ ] Binary Search Tree
+- [ ] Cartesian Tree
+- [ ] B-Tree
+- [ ] Red-Black Tree
+- [ ] Splay Tree
+- [ ] AVL Tree
+- [ ] KD Tree
+- [ ] String
+  - [ ] KMP
 
 ## Appendix
 
