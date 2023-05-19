@@ -20,4 +20,23 @@ SeqList L;
 SeqList *L;
 ```
 
+## Link List
+
+```c
+typedef struct Node
+{
+    DataType data;
+    struct Node *next;
+}ListNode, *LinkList;
+```
+
+```c
+ListNode L;
+```
+
+```c
+ListNode *L;
+```
+
+
 
