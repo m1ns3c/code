@@ -1,4 +1,5 @@
 #include "linkstack.h"
+#include <stdio.h>
 #include <stdlib.h>
 
 void InitStack(LinkStack *S) {
@@ -22,19 +23,19 @@ int PushStack(LinkStack *S, DataType e) {
   }
 
   node->data = e;
-  node->next = S->next;
-  S->next = node;
+  node->next = (*S)->next;
+  (*S)->next = node;
   return 1;
 }
 
 int PopStack(LinkStack *S, DataType *e) {
-  LStackNode *node = S->next;
+  LStackNode *node = (*S)->next;
   if (node == NULL) {
     return 0;
   }
 
   *e = node->data;
-  S->next = node->next;
+  (*S)->next = node->next;
   free(node);
   return 1;
 }
@@ -60,11 +61,20 @@ int StackLength(LinkStack S) {
   return i;
 }
 
-void DestroyStack(LinkStack *S) {
+void DestroyStack(LinkStack S) {
   LStackNode *node = S, *p;
   while (node) {
     p = node;
     node = node->next;
     free(p);
   }
+}
+
+void PrintStack(LinkStack S) {
+  LStackNode *node = S->next;
+  while (node) {
+    printf("%d", node->data);
+    node = node->next;
+  }
+  printf("\n");
 }

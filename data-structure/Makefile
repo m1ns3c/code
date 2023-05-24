@@ -10,5 +10,8 @@ linklist_test01: linklist.h linklist.c linklist_test01.c
 seqstack_test01: seqstack.h seqstack.c seqstack_test01.c
 	gcc -g $^ -o $@
 
+linkstack_test01: linkstack.h linkstack.c linkstack_test01.c
+	gcc -g $^ -o $@
+
 clean:
 	rm -f seqlist
