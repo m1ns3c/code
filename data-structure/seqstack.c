@@ -9,7 +9,7 @@ int StackEmpty(SeqStack S) {
 }
 
 int GetTop(SeqStack S, DataType *e) {
-  if (S.top <= 0 {
+  if (S.top <= 0) {
     return 0;
   }
 
@@ -26,7 +26,7 @@ int PushStack(SeqStack *S, DataType e) {
   return 1;
 }
 
-int PopStack(SeqStack *S, *e) {
+int PopStack(SeqStack *S, DataType *e) {
   if (S->top <= 0) {
     return 0;
   }
@@ -41,5 +41,5 @@ int StackLength(SeqStack S) {
 }
 
 void ClearStack(SeqStack *S) {
-  S.top = 0;
+  S->top = 0;
 }
