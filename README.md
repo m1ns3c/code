@@ -63,7 +63,7 @@ $ ./radix_sort
 - [ ] KMP
 - [ ] LCS
 - [ ] BFS / DFS
-- [ ] TOP K
+- [ ] TOP k
 - [ ] Splay Tree
 - [ ] AVL Tree
 - [ ] Red-Black Tree
