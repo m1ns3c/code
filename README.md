@@ -59,6 +59,15 @@ $ ./radix_sort
 - [ ] String
   - [ ] KMP
 
+## Algo
+- [ ] KMP
+- [ ] LCS
+- [ ] BFS / DFS
+- [ ] TOP K
+- [ ] Splay Tree
+- [ ] AVL Tree
+- [ ] Red-Black Tree
+
 ## Appendix
 
 - [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
