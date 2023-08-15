@@ -1,5 +1,5 @@
 // 26. 删除有序数组中的重复项
-#include "def.h"
+#include "../def.h"
 
 // 双指针
 

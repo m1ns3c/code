@@ -1,5 +1,5 @@
 // 27. 移除元素
-#include "def.h"
+#include "../def.h"
 
 // 双指针
 

@@ -1,6 +1,6 @@
 // 146. LRU 缓存
 
-#include "def.h"
+#include "../def.h"
 
 // 哈希+双向链表
 

@@ -1,5 +1,5 @@
 // 344. 反转字符串
-#include "def.h"
+#include "../def.h"
 
 // 双指针
 
