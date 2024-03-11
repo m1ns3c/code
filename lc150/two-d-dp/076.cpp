@@ -3,7 +3,6 @@
 
 // DP
 // 动态规划关键是找到 初始状态 和 状态转移方程
-
 class Solution {
 public:
     string longestPalindrome(string s) {
